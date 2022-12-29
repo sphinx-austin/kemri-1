@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Functionality</title>
 
     <!-- Montserrat Font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -99,82 +99,63 @@
       <!-- Main -->
       <main class="main-container">
         <div class="main-title">
-          <p class="font-weight-bold">Murang'a County Health Facilities Capacity Assessment</p>
+          <p class="font-weight-bold">Murang'a County Health Facilities Capacity Assessment Based on Functionality</p>
         </div>
 
         <div class="main-cards">
 
           <div class="card">
             <div class="card-inner">
-              <p class="text-primary">Sub-counties</p>
+              <p class="text-primary">Good functionality facilities</p>
               
             </div>
-            <span class="text-primary font-weight-bold">8</span>
+            <span class="text-primary font-weight-bold">10</span>
           </div>
 
           <div class="card">
             <div class="card-inner">
-              <p class="text-primary"> Hospital Visits 2011</p>
+              <p class="text-primary"> Fair functionality facilities</p>
               
             </div>
-            <span class="text-primary font-weight-bold">1486593</span>
+            <span class="text-primary font-weight-bold">53</span>
           </div>
 
           <div class="card">
             <div class="card-inner">
-              <p class="text-primary">Hospital Visits 2012</p>
+              <p class="text-primary">Average functionality facilities</p>
               
             </div>
-            <span class="text-primary font-weight-bold">1430835</span>
+            <span class="text-primary font-weight-bold">21</span>
           </div>
 
           <div class="card">
             <div class="card-inner">
-              <p class="text-primary">Hospital Visits 2013</p>
+              <p class="text-primary">Below Average functionality facilities</p>
               
             </div>
-            <span class="text-primary font-weight-bold">1667492</span>
+            <span class="text-primary font-weight-bold">48</span>
           </div>
 
         </div>
-<section>
-  <div class="charts">
-
-    <div class="charts-card">
-      <p class="chart-title">Total number of Hospitals per Sub-county</p>
-      <div id="bar-chart"></div>
-    </div>
-
-    <div class="charts-card">
-      <p class="chart-title">Trend of Hospital Visits</p>
-      <div id="area-chart"></div>
-    </div>
-  </div>
-</section>
 
 <section>
   <div class="img-charts">
     <div class="img-charts-card">
-      <p class="chart-title">Trend of Hospital Visits</p>
-      <div class="img">
-        <center><img src="images/trend.jpg" alt="centered image" height="" width=""> </center>
-        
-      </div>
-      
+      <p class="chart-title">Analysis based on Functionality</p>
+      <center><p>Here, "Functionality" is defined as whether the facilities are offering the basic 
+        minimum health services as prescribed by national GoK policy & guidelines for various categories of health facilities.</p></center>
       <div>
-        <p>Overall, the data shows an increase in total hospital visits from 2011 to 2013 in all subcounties. 
-          Gatanga had the highest increase, with total hospital visits increasing by 78485 from 2011 to 2013. 
-          Kandara had the second highest increase, with total hospital visits increasing by 62565 from 2011 to 2013. 
-          Kiharu had the third highest increase, with total hospital visits increasing by 87384 from 2011 to 2013.</p>
-        
-        <div class="img">
-        <center><img src="images/facility_vsisits_animated_graph.gif" alt="centered image" height="" width=""> </center>
-        
+        <center><img src="images/functionality.jpg" alt=""></center>
       </div>
+      <div>
+        
+        <p>There is no facility in Kigumo and Mathioya that have Good functionality.</p>
 
-        <p>In terms of percentage increase, Kiharu had the highest percentage increase in total hospital visits from 2011 to 2013, with a 328.6% increase. 
-          Gatanga had the second highest percentage increase, with a 142.6% increase. 
-          Kandara had the third highest percentage increase, with a 138.2% increase.</p>
+        <p>In terms of the number of healthcare facilities in each functional category, 
+          Gatanga has the most healthcare facilities classified as being in good functional condition, with 2 facilities. 
+          Kandara and Kiharu have the most healthcare facilities classified as being in below functional condition, with 7 facilities each. 
+          Kiharu also has the most healthcare facilities classified as being in fair functional condition, with 12 facilities. 
+          Kandara has the most healthcare facilities classified as being in average functional condition, with 12 facilities.</p>
       </div>
     </div>
   </div>
@@ -183,27 +164,23 @@
 <section>
   <div class="img-charts">
     <div class="img-charts-card">
-      <p class="chart-title">Facility Distribution in Murang'a in 2013</p>
-      <div class="img">
-        <center><img src="images/facility-distr.jpg" alt="centered image" height="500" width="750"> </center>
-        
+      <p class="chart-title">Sum of functionality based on levels</p>
+      <div>
+        <center><img src="images/fn_levels.jpg" alt=""></center>
       </div>
       <div>
-        <p>There is an uneven distribution of healthcare facilities in Muranga County, with some sub-counties having significantly more facilities than others. 
-          Gatanga has the most facilities with 27, followed by Kandara with 22 and Kangema with 18. Kigumo and Kiharu both have 15 facilities, 
-          while Mathioya and Muranga South have the fewest with 11 and 15 facilities respectively. 
-          It is important for there to be a balanced distribution of healthcare facilities in a region to ensure that all residents have access to quality healthcare.
-           It may be necessary to consider expanding or building new facilities in sub-counties with fewer resources in order to achieve universal health coverage in Muranga County.</p>
-
+        <p>In terms of the types of facilities, there are 103 dispensaries, 24 health centers, and 5 sub-district hospitals. 
+          The majority of the facilities classified as being in "below" functionality are dispensaries (41 out of 48), 
+          while the majority of the facilities classified as being in "good" functionality are sub-district hospitals (5 out of 10).</p>
         
+        <p>Overall, these results suggest that there may be a need to prioritize upgrading or improving the functionality of the dispensaries in the sub-counties, 
+          as a larger proportion of these facilities are classified as being in "below" functionality compared to the other types of facilities. 
+          It may also be worth considering why the sub-district hospitals have a higher percentage of "good" functionality and 
+          whether these practices can be implemented in other types of facilities to improve their functionality.</p>
       </div>
     </div>
   </div>
 </section>
-
-          
-
-        
       </main>
       <!-- End Main -->
 

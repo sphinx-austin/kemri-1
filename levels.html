@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Levels</title>
 
     <!-- Montserrat Font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -92,6 +92,7 @@
               <span class="material-icons-outlined">settings</span> Data
             </a>
           </li>
+          
         </ul>
       </aside>
       <!-- End Sidebar -->
@@ -99,110 +100,127 @@
       <!-- Main -->
       <main class="main-container">
         <div class="main-title">
-          <p class="font-weight-bold">Murang'a County Health Facilities Capacity Assessment</p>
+          <p class="font-weight-bold">Healthcare Facility Levels Analysis in Murang'a</p>
         </div>
 
         <div class="main-cards">
 
           <div class="card">
             <div class="card-inner">
-              <p class="text-primary">Sub-counties</p>
+              <p class="text-primary">Total Facilities</p>
               
             </div>
-            <span class="text-primary font-weight-bold">8</span>
+            <span class="text-primary font-weight-bold">132</span>
           </div>
 
           <div class="card">
             <div class="card-inner">
-              <p class="text-primary"> Hospital Visits 2011</p>
+              <p class="text-primary">Dispensaries</p>
               
             </div>
-            <span class="text-primary font-weight-bold">1486593</span>
+            <span class="text-primary font-weight-bold">103</span>
           </div>
 
           <div class="card">
             <div class="card-inner">
-              <p class="text-primary">Hospital Visits 2012</p>
+              <p class="text-primary">Health Centers</p>
               
             </div>
-            <span class="text-primary font-weight-bold">1430835</span>
+            <span class="text-primary font-weight-bold">24</span>
           </div>
 
           <div class="card">
             <div class="card-inner">
-              <p class="text-primary">Hospital Visits 2013</p>
+              <p class="text-primary">Sub-district Facilities</p>
               
             </div>
-            <span class="text-primary font-weight-bold">1667492</span>
+            <span class="text-primary font-weight-bold">5</span>
           </div>
 
         </div>
 <section>
-  <div class="charts">
+  <div class="img-charts">
 
-    <div class="charts-card">
-      <p class="chart-title">Total number of Hospitals per Sub-county</p>
-      <div id="bar-chart"></div>
+    <div class="img-charts-card">
+      <p class="chart-title"> Comparison of Number of levels of Hospitals per Sub-county</p>
+      <div>
+        <center><img src="images/levels.jpg" alt="centered image" ></center>
+      </div>
+      <div>
+        <p>
+          Gatanga has the most facilities, with 17 dispensaries, 5 health centers, and 1 sub-district hospital. 
+          Kandara and Kiharu have the second most facilities, with 21 dispensaries and 19 dispensaries, respectively. 
+          Kangema, Kigumo, and Muthioya have a moderate number of facilities, with 14, 11, and 8 dispensaries, respectively. 
+          Muranga south has the least number of facilities, with only 12 dispensaries.
+        </p>
+      </div>
     </div>
 
-    <div class="charts-card">
-      <p class="chart-title">Trend of Hospital Visits</p>
-      <div id="area-chart"></div>
-    </div>
   </div>
 </section>
 
 <section>
   <div class="img-charts">
-    <div class="img-charts-card">
-      <p class="chart-title">Trend of Hospital Visits</p>
-      <div class="img">
-        <center><img src="images/trend.jpg" alt="centered image" height="" width=""> </center>
-        
-      </div>
-      
-      <div>
-        <p>Overall, the data shows an increase in total hospital visits from 2011 to 2013 in all subcounties. 
-          Gatanga had the highest increase, with total hospital visits increasing by 78485 from 2011 to 2013. 
-          Kandara had the second highest increase, with total hospital visits increasing by 62565 from 2011 to 2013. 
-          Kiharu had the third highest increase, with total hospital visits increasing by 87384 from 2011 to 2013.</p>
-        
-        <div class="img">
-        <center><img src="images/facility_vsisits_animated_graph.gif" alt="centered image" height="" width=""> </center>
-        
-      </div>
 
-        <p>In terms of percentage increase, Kiharu had the highest percentage increase in total hospital visits from 2011 to 2013, with a 328.6% increase. 
-          Gatanga had the second highest percentage increase, with a 142.6% increase. 
-          Kandara had the third highest percentage increase, with a 138.2% increase.</p>
+    <div class="img-charts-card">
+      <p class="chart-title"> Dispensary Visits per sub-county </p>
+      <div>
+        <center><img src="images/dispensary_visits.jpg" alt=""></center>
+        
+      </div>
+      <div>
+        <p>Sub-counties with a higher number of dispensaries tend to have a higher number of visits to healthcare facilities. 
+          For example, Gatanga, Kandara, and Kiharu, which have 17, 21, and 19 dispensaries, respectively, also have the highest number of visits to healthcare facilities in 2011, 2012, and 2013.</p>
+        
+        <p>On the other hand, sub-counties with a lower number of dispensaries tend to have a lower number of visits to healthcare facilities. 
+          For example, Muthioya, which has only 8 dispensaries, also has the lowest number of visits to healthcare facilities in 2011, 2012, and 2013. 
+          Muranga south, which has 12 dispensaries, also has a lower number of visits compared to the other sub-counties.</p>
       </div>
     </div>
+
   </div>
 </section>
 
 <section>
   <div class="img-charts">
+
     <div class="img-charts-card">
-      <p class="chart-title">Facility Distribution in Murang'a in 2013</p>
-      <div class="img">
-        <center><img src="images/facility-distr.jpg" alt="centered image" height="500" width="750"> </center>
-        
+      <p class="chart-title"> Health Center Visits per sub-county </p>
+      <div>
+        <center><img src="images/HC_visits.jpg" alt=""></center>
       </div>
       <div>
-        <p>There is an uneven distribution of healthcare facilities in Muranga County, with some sub-counties having significantly more facilities than others. 
-          Gatanga has the most facilities with 27, followed by Kandara with 22 and Kangema with 18. Kigumo and Kiharu both have 15 facilities, 
-          while Mathioya and Muranga South have the fewest with 11 and 15 facilities respectively. 
-          It is important for there to be a balanced distribution of healthcare facilities in a region to ensure that all residents have access to quality healthcare.
-           It may be necessary to consider expanding or building new facilities in sub-counties with fewer resources in order to achieve universal health coverage in Muranga County.</p>
-
-        
+        <p>It is worth noting that Kandara does not have any health centers and also has a very low number of visits to healthcare facilities in 2011, 2012, and 2013. 
+          This may suggest that the availability of health centers is an important factor in determining the number of visits to healthcare facilities in each sub-county.</p>
       </div>
     </div>
+
   </div>
 </section>
 
-          
+<section>
+  <div class="img-charts">
 
+    <div class="img-charts-card">
+      <p class="chart-title"> Sub-district facility Visits per sub-county </p>
+      <div>
+        <center><img src="images/SD_visits.jpg" alt=""></center>
+      </div>
+      <div>
+        <p>Gatanga, Kandara, Kangema, Kiharu, and Muranga south, which all have a sub-district hospital, 
+          also have relatively high numbers of visits to healthcare facilities in 2011, 2012, and 2013.</p>
+
+        <p>On the other hand, sub-counties without a sub-district hospital tend to have a lower number of visits to healthcare facilities. 
+          For example, Kigumo and Muthioya, which do not have a sub-district hospital, also have a very low number of visits to healthcare facilities in 2011, 2012, and 2013.</p>
+
+        <p>It is worth noting that the number of visits to healthcare facilities in sub-counties with a sub-district hospital is not consistently high across all years. 
+          For example, Gatanga and Kandara have relatively high numbers of visits in 2011 and 2012, but a lower number of visits in 2013.
+           Similarly, Kangema and Kiharu have relatively high numbers of visits in 2011 and 2013, but a lower number of visits in 2012.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
         
       </main>
       <!-- End Main -->

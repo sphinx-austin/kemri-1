@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Agency</title>
 
     <!-- Montserrat Font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -22,14 +22,15 @@
         <div class="menu-icon" onclick="openSidebar()">
           <span class="material-icons-outlined">menu</span>
         </div>
+
         <div class="search-wrapper">
           <span class="las la-search"></span>
           <input type="search" placeholder="Search..." />
-      </div>
-        
+        </div>
+
         <div class="header-right">
           <span class="material-icons-outlined">notifications</span>
-          
+
           <span class="material-icons-outlined">account_circle</span>
         </div>
       </header>
@@ -114,96 +115,116 @@
 
           <div class="card">
             <div class="card-inner">
-              <p class="text-primary"> Hospital Visits 2011</p>
+              <p class="text-primary">Total facilities</p>
               
             </div>
-            <span class="text-primary font-weight-bold">1486593</span>
+            <span class="text-primary font-weight-bold">132</span>
           </div>
 
           <div class="card">
             <div class="card-inner">
-              <p class="text-primary">Hospital Visits 2012</p>
+              <p class="text-primary">Owned by County government</p>
               
             </div>
-            <span class="text-primary font-weight-bold">1430835</span>
+            <span class="text-primary font-weight-bold">128</span>
           </div>
 
           <div class="card">
             <div class="card-inner">
-              <p class="text-primary">Hospital Visits 2013</p>
+              <p class="text-primary">Community based facilities</p>
               
             </div>
-            <span class="text-primary font-weight-bold">1667492</span>
+            <span class="text-primary font-weight-bold">4</span>
           </div>
 
         </div>
+
+        <section>
+          <div class="img-charts">
+            <div class="img-charts-card">
+              <p class="chart-title">Owners of facilities</p>
+              <div class="img">
+                <center><img src="images/agency.jpg" alt="centered image" height="" width=""> </center>
+               
+              </div>
+              <div>
+                <p>The county government owns majority of healthcare facilities in the county. Specifically, the county government owns 127 out of 131 facilities, 
+                  while only 4 facilities are owned by the community.</p>
+        
+              </div>
+            </div>
+          </div>
+        </section>
+
+        
 <section>
-  <div class="charts">
+  <!--Table-->
+  <div class="recent-grid">
+   <div class="projects">
+       <div class="card">
+           <div class="card-header">
+               <h3>Community based facilities</h3>
 
-    <div class="charts-card">
-      <p class="chart-title">Total number of Hospitals per Sub-county</p>
-      <div id="bar-chart"></div>
-    </div>
+           </div>
 
-    <div class="charts-card">
-      <p class="chart-title">Trend of Hospital Visits</p>
-      <div id="area-chart"></div>
-    </div>
-  </div>
+           <div class="card-body">
+               <div class="table-responsive">
+                   <table width="100%">
+                       <thead>
+                           <tr>
+                               <td>Sub-county</td>
+                               <td>Facility-coded</td>
+                               <td>Level</td>
+                               <td>Owner</td>
+                           </tr>
+                       </thead>
+                       <tbody>
+                           <tr>
+                               <td>Kangema</td>
+                               <td>KAG_007</td>
+                               <td>Dispensary</td>
+                               <td>
+                                   <span class="status green"></span> Community
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>Kangema</td>
+                               <td>KAG_005</td>
+                               <td>Dispensary</td>
+                               <td>
+                                   <span class="status green"></span> Community
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>Kiharu</td>
+                               <td>KIH_015</td>
+                               <td>Dispensary</td>
+                               <td>
+                                   <span class="status green"></span> Community
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>Kiharu</td>
+                               <td>KIH_009</td>
+                               <td>Dispensary</td>
+                               <td>
+                                   <span class="status green"></span> Community
+                               </td>
+                           </tr>
+                           
+
+                       </tbody>
+                   </table>
+               </div>
+           </div>
+         
+       </div>
+   </div>
+ 
 </section>
 
-<section>
-  <div class="img-charts">
-    <div class="img-charts-card">
-      <p class="chart-title">Trend of Hospital Visits</p>
-      <div class="img">
-        <center><img src="images/trend.jpg" alt="centered image" height="" width=""> </center>
-        
-      </div>
-      
-      <div>
-        <p>Overall, the data shows an increase in total hospital visits from 2011 to 2013 in all subcounties. 
-          Gatanga had the highest increase, with total hospital visits increasing by 78485 from 2011 to 2013. 
-          Kandara had the second highest increase, with total hospital visits increasing by 62565 from 2011 to 2013. 
-          Kiharu had the third highest increase, with total hospital visits increasing by 87384 from 2011 to 2013.</p>
-        
-        <div class="img">
-        <center><img src="images/facility_vsisits_animated_graph.gif" alt="centered image" height="" width=""> </center>
-        
-      </div>
-
-        <p>In terms of percentage increase, Kiharu had the highest percentage increase in total hospital visits from 2011 to 2013, with a 328.6% increase. 
-          Gatanga had the second highest percentage increase, with a 142.6% increase. 
-          Kandara had the third highest percentage increase, with a 138.2% increase.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="img-charts">
-    <div class="img-charts-card">
-      <p class="chart-title">Facility Distribution in Murang'a in 2013</p>
-      <div class="img">
-        <center><img src="images/facility-distr.jpg" alt="centered image" height="500" width="750"> </center>
-        
-      </div>
-      <div>
-        <p>There is an uneven distribution of healthcare facilities in Muranga County, with some sub-counties having significantly more facilities than others. 
-          Gatanga has the most facilities with 27, followed by Kandara with 22 and Kangema with 18. Kigumo and Kiharu both have 15 facilities, 
-          while Mathioya and Muranga South have the fewest with 11 and 15 facilities respectively. 
-          It is important for there to be a balanced distribution of healthcare facilities in a region to ensure that all residents have access to quality healthcare.
-           It may be necessary to consider expanding or building new facilities in sub-counties with fewer resources in order to achieve universal health coverage in Muranga County.</p>
-
-        
-      </div>
-    </div>
-  </div>
-</section>
-
-          
-
-        
+         <!--===== CHARTS =====-->
+         
       </main>
       <!-- End Main -->
 
